@@ -27,6 +27,7 @@ export default defineConfig(() => ({
 		}),
 		tsconfigPaths()
 	],
+	base: '/wwt-technical-task-light/',
 	test: {
 		globals: true,
 		environment: 'jsdom',
